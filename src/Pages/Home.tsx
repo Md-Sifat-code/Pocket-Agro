@@ -1,6 +1,7 @@
 import React from "react";
 import Hero from "../Components/Home/Hero";
 import Market from "../Components/Home/Market";
+import Contact from "../Components/Home/Contact";
 
 const Home: React.FC = () => {
   return (
@@ -8,6 +9,7 @@ const Home: React.FC = () => {
       <div>
         <Hero />
         <Market />
+        <Contact />
       </div>
     </section>
   );

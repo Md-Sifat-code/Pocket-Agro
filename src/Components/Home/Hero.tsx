@@ -21,7 +21,7 @@ const Hero: React.FC = () => {
         ></div>
 
         <div className="absolute inset-0 flex justify-center items-center">
-          <div className="grid h-full grid-cols-1 md:grid-cols-2 md:gap-12 container mx-auto">
+          <div className="grid h-full grid-cols-1 md:grid-cols-2 gap-12 container mx-auto">
             <div className="flex flex-col justify-center gap-4 items-center md:items-start">
               <h1 className="road text-2xl sm:text-3xl md:text-5xl font-medium text-center md:text-start text-white">
                 A DIGITAL FARMING MARKET PLACE WHERE FAIR FOOD TRADE MADE EASY,
@@ -47,9 +47,9 @@ const Hero: React.FC = () => {
                 </div>
                 <div className="flex flex-wrap justify-center items-center gap-3">
                   <div className="flex gap-12 flex-row">
-                    <div className="felx lex-col items-center justify-center">
+                    <div className="flex flex-col items-center justify-center">
                       <img
-                        className="w-[50px] rounded-full h-[50px]"
+                        className="w-[50px] bg-white rounded-full h-[50px]"
                         src={icon1}
                         alt=""
                       />

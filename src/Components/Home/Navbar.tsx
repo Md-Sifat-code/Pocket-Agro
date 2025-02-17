@@ -28,7 +28,7 @@ const Navbar: React.FC = () => {
             <div className="hidden md:flex space-x-4">
               <Link
                 to="/"
-                className={`font-normal px-2 uppercase ${
+                className={`font-bold px-2 uppercase ${
                   activeLink === "/" ? "textcol" : ""
                 }`}
                 onClick={() => handleClick("/")}
@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
               </Link>
               <Link
                 to="/investment"
-                className={`font-normal px-2 uppercase ${
+                className={`font-bold px-2 uppercase ${
                   activeLink === "/investment" ? "textcol" : ""
                 }`}
                 onClick={() => handleClick("/investment")}
@@ -46,7 +46,7 @@ const Navbar: React.FC = () => {
               </Link>
               <Link
                 to="/market"
-                className={`font-normal px-2 uppercase ${
+                className={`font-bold px-2 uppercase ${
                   activeLink === "/market" ? "textcol" : ""
                 }`}
                 onClick={() => handleClick("/market")}
@@ -55,7 +55,7 @@ const Navbar: React.FC = () => {
               </Link>
               <Link
                 to="/about-us"
-                className={`font-normal px-2 uppercase ${
+                className={`font-bold px-2 uppercase ${
                   activeLink === "/about-us" ? "textcol" : ""
                 }`}
                 onClick={() => handleClick("/about-us")}
@@ -87,10 +87,10 @@ const Navbar: React.FC = () => {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden flex flex-col space-y-4 mt-4">
+          <div className="md:hidden rubik flex flex-col space-y-4 mt-4">
             <Link
               to="/"
-              className={`font-normal px-2 uppercase ${
+              className={` font-bold  px-2 uppercase ${
                 activeLink === "/" ? "textcol" : ""
               }`}
               onClick={() => {
@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
             </Link>
             <Link
               to="/investment"
-              className={`font-normal px-2 uppercase ${
+              className={`font-bold px-2 uppercase ${
                 activeLink === "/investment" ? "textcol" : ""
               }`}
               onClick={() => {
@@ -114,7 +114,7 @@ const Navbar: React.FC = () => {
             </Link>
             <Link
               to="/market"
-              className={`font-normal px-2 uppercase ${
+              className={`font-bold px-2 uppercase ${
                 activeLink === "/market" ? "textcol" : ""
               }`}
               onClick={() => {
@@ -126,7 +126,7 @@ const Navbar: React.FC = () => {
             </Link>
             <Link
               to="/about-us"
-              className={`font-normal px-2 uppercase ${
+              className={`font-bold px-2 uppercase ${
                 activeLink === "/about-us" ? "textcol" : ""
               }`}
               onClick={() => {
