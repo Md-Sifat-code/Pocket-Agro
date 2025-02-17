@@ -1,5 +1,6 @@
 import React from "react";
 import { FaRegUser, FaTruck, FaStoreAlt } from "react-icons/fa"; // Import icons
+import { Link } from "react-router-dom";
 
 const Choose: React.FC = () => {
   return (
@@ -19,9 +20,12 @@ const Choose: React.FC = () => {
               potential buyers.
             </p>
             <div className="flex justify-center">
-              <button className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition">
+              <Link
+                to={"/auth/farmer"}
+                className="bg-green-500 text-white px-6 py-2 rounded-full hover:bg-green-600 transition"
+              >
                 Choose Farmer
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -40,9 +44,12 @@ const Choose: React.FC = () => {
               doorstep.
             </p>
             <div className="flex justify-center">
-              <button className="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition">
+              <Link
+                to={"/auth/buyer"}
+                className="bg-blue-500 text-white px-6 py-2 rounded-full hover:bg-blue-600 transition"
+              >
                 Choose Buyer
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -61,9 +68,12 @@ const Choose: React.FC = () => {
               local farmers.
             </p>
             <div className="flex justify-center">
-              <button className="bg-yellow-500 text-white px-6 py-2 rounded-full hover:bg-yellow-600 transition">
+              <Link
+                to={"/auth/investor"}
+                className="bg-yellow-500 text-white px-6 py-2 rounded-full hover:bg-yellow-600 transition"
+              >
                 Choose Investor
-              </button>
+              </Link>
             </div>
           </div>
         </div>

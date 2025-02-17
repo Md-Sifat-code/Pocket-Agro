@@ -6,6 +6,9 @@ import Main_layout from "./Layout/Main_layout";
 import Home from "./Pages/Home";
 import Auth_Layout from "./Layout/Auth_Layout";
 import Choose from "./Authentication/Signup/Choose";
+import Farmmer from "./Authentication/Signup/Farmmer";
+import Buyers from "./Authentication/Signup/Buyers";
+import Investors from "./Authentication/Signup/Investors";
 
 // Define the routes with TypeScript type checking
 const router = createBrowserRouter([
@@ -26,6 +29,18 @@ const router = createBrowserRouter([
       {
         path: "/auth",
         element: <Choose />,
+      },
+      {
+        path: "/auth/farmer",
+        element: <Farmmer />,
+      },
+      {
+        path: "/auth/buyer",
+        element: <Buyers />,
+      },
+      {
+        path: "/auth/investor",
+        element: <Investors />,
       },
     ],
   },
