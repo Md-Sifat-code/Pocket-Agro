@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+.bgmain{
+  background-color:#88C75C ;
+}
+.jaini {
+  font-family: "Jaini", serif;
+
+}
+.textcol{
+  color:#88C75C ;
+}
