@@ -6,7 +6,7 @@ const Contact: React.FC = () => {
     <section>
       <div>
         <div>
-          <h1 className="text-2xl md:text-4xl lg:text-6xl mb-12 road text-center mt-[100px]">
+          <h1 className="text-4xl md:text-4xl lg:text-6xl mb-12 road text-center mt-[100px]">
             CONTACT <span className="textcol">US</span>
           </h1>
         </div>
@@ -19,10 +19,10 @@ const Contact: React.FC = () => {
             <img className="h-[600px] w-full" src={logo} alt="Contact Logo" />
 
             {/* Content on top */}
-            <div className="absolute top-0 left-0 right-0 bottom-0 grid grid-cols-2">
+            <div className="absolute top-0 left-0 right-0 bottom-0 grid grid-cols-1 lg:grid-cols-2">
               <div className="text-white text-xl md:text-3xl"></div>
-              <div className="h-full w-full flex justify-center items-center ">
-                <div className="w-[60%] bg-white h-auto opacity-90 p-4 rounded-lg">
+              <div className="h-full  w-full flex justify-center items-center ">
+                <div className=" w-[95%] lg:w-[60%] bg-white h-auto opacity-90 p-4 rounded-lg">
                   {/* Form with input fields, text area, and submit button */}
                   <form className="space-y-4">
                     <div>
